@@ -1,46 +1,5 @@
-# Getting Started with Create React App
+## Restaurant order app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This app is supposed to help with taking orders from customers. It was built using the React library, Typescript and Redux Toolkit. It was my first time using Typescript, so I used a video as a guide. This was also a great practice to use Redux one more time! It is a small project, but Redux is a very important tool for the overall management of a React app, and I wanted to give it a go. I also used a tool uuid to manage the ids for every customer.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+It's a very simple app with little to no style (I wanted to focus on Typescript and Redux), you will see a reservation section where you should add the name of the customer. After you add the name, you can click on it, and it will automatically go to the right section of the page where you can add the food that the client is asking for.
